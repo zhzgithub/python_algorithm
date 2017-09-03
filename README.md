@@ -15,3 +15,5 @@ pickle_operation.py    是关于把列表或者字典保存为二进制文件，
 try_except.py          是关于异常处理的相关代码:try,except,else,finally,raise等操作     
   
 with.py              是关于with的用法：使用with后可以不用调用f.close()函数来关闭文件；以及文件写入时不能读取的解释说明。最后介绍了else的丰富用法
+    
+object_variable.py   是关于类变量，成员变量，私有变量 相关的概念解析以及代码
