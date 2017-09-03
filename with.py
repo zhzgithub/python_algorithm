@@ -30,6 +30,20 @@ except OSError as reason:
 	# print('出错了！'+str(reason))
 # finally:
 	# f.close()
+	
 # # ----------------------------------------------------------------------------------------------
 
+# 顺带介绍一下else的用法：除了if-else，else还可以与while以及for循环结合使用
+# 这里以while循环为例，for循环也是这么做的
+	# count=num//2
+	# while count>1:
+		# if num%count==0:
+			# print('%d最大的约数是%d'%(num,count))
+			# break
+		# count-=1
+	# else:			#当上面的while循环执行结束，并且没有执行break语句跳出循环时，执行else语句；若是跳出了while循环，则不执行else语句
+		# print('%d是素数!'%num)
+# num=int(input('请输入一个数字：'))
+# max_factor(num)
+	
 
