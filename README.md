@@ -16,6 +16,6 @@ try_except.py          是关于异常处理的相关代码:try,except,else,
   
 with.py              是关于with的用法：使用with后可以不用调用f.close()函数来关闭文件；以及文件写入时不能读取的解释说明。最后介绍了else的丰富用法
     
-object_variable.py   是关于类变量，成员变量，私有变量 相关的概念解析以及代码    
-    
+object_variable.py   是关于类变量，成员变量，私有变量 相关的概念解析以及代码        
+
 baseClass_childClass.py 是关于继承的代码。子类、父类、以及多重继承
