@@ -10,4 +10,4 @@ split_operation.py     是关于分隔符的。本例讲的是文件的每行语
 
 pickle_operation.py    是关于把列表或者字典保存为二进制文件，来使得程序更简洁更易懂。介绍了pickle模块的用法，主要用到了文件的读取和pickle.dump()       
 
-try_except.py          是关于异常处理的相关代码:try,except,finally,raise等操作
+try_except.py          是关于异常处理的相关代码:try,except,else,finally,raise等操作
