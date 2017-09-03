@@ -35,6 +35,7 @@ except OSError as reason:
 
 # 顺带介绍一下else的用法：除了if-else，else还可以与while以及for循环结合使用
 # 这里以while循环为例，for循环也是这么做的
+# def max_factor(num):  #该函数功能是判断一个数num的最大因数是多少,或者num是素数
 	# count=num//2
 	# while count>1:
 		# if num%count==0:
