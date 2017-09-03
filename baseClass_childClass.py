@@ -32,6 +32,7 @@ fish=Shark()
 fish.move()
 
 
+
 # -------------------------------------------------------------------------
 # 多重继承方式	class ClassName(BaseClass1,BaseClass2,BaseClass3):
 
