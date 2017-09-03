@@ -1,5 +1,7 @@
 # python_algorithm       python的一些算法程序代码
-# 各个脚本文件说明
+# 各个脚本文件说明    
+# 当程序中需要创建文件时，使用notepad++的python解释器能使程序运行，但是创建不了文件。但是使用python自带的idle.exe可以创建文件
+
 iteration_recursion.py 是 关于迭代和递归的相关代码，以斐波那契和汉诺塔为例子    
 
 set_list.py            是关于集合与列表的相关操作，删除重复元素的方法，还介绍了一点增删元素的内嵌函数，以及字典
@@ -10,4 +12,6 @@ split_operation.py     是关于分隔符的。本例讲的是文件的每行语
 
 pickle_operation.py    是关于把列表或者字典保存为二进制文件，来使得程序更简洁更易懂。介绍了pickle模块的用法，主要用到了文件的读取和pickle.dump()       
 
-try_except.py          是关于异常处理的相关代码:try,except,finally,raise等操作
+try_except.py          是关于异常处理的相关代码:try,except,else,finally,raise等操作     
+  
+with.py                是关于with的用法：使用with后可以不用调用f.close()函数来关闭文件；以及文件写入时不能读取的解释说明
