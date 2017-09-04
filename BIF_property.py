@@ -1,4 +1,6 @@
+
 # 关于类的一些BIF(内嵌函数)
+
 object是所有类的基类(父类)，即所有类都是object的子类
 如果instance1是class2的实例化对象，class2是class1的子类，那么instance1也是class1的实例化对象
 issubclass(子类,父类)		#返回True,False
