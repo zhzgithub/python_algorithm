@@ -1,6 +1,6 @@
 # python_algorithm       python的一些算法程序代码
 
-# 当程序中需要创建文件时，使用notepad++的python解释器能使程序运行，但是创建不了文件。但是使用python自带的idle.exe可以创建文件    
+#当程序中需要创建文件时，使用notepad++的python解释器能使程序运行，但是创建不了文件。但是使用python自带的idle.exe可以创建文件    
     
 # 在编程时，养成好习惯：属性(也即变量)名使用名词，如name,方法(也即函数)名使用动词，如print_name()
 
