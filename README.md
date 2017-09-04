@@ -1,6 +1,8 @@
 # python_algorithm       python的一些算法程序代码
-# 各个脚本文件说明    
-# 当程序中需要创建文件时，使用notepad++的python解释器能使程序运行，但是创建不了文件。但是使用python自带的idle.exe可以创建文件
+
+# 当程序中需要创建文件时，使用notepad++的python解释器能使程序运行，但是创建不了文件。但是使用python自带的idle.exe可以创建文件    
+    
+# 在编程时，养成好习惯：属性(也即变量)名使用名词，如name,方法(也即函数)名使用动词，如print_name()
 
 iteration_recursion.py 是 关于迭代和递归的相关代码，以斐波那契和汉诺塔为例子    
 
