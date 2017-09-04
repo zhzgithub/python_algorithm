@@ -24,6 +24,6 @@ baseClass_childClass.py 是关于继承的代码。子类、父类、以及多�
     
 zuhe_combine.py      是关于类的组合的概念：当几个类不是同一物种，即横向关系的类，不适合使用继承，这就要用到组合。另外还讲到在类定义外部可以直接定义属性赋值，因为python的变量不需要声明。最后还讲到了关于self 绑定的概念     
         
-BIF_property.py   是关于一些面向对象的内嵌函数，以及property的用法    
+BIF_property.py   是关于一些面向对象的内嵌函数如issubclass(),isinstance(),getattr()等，以及property的用法    
 
-magicFunction__init__.py    是关于魔法方法例如__init__和__del__等相关的概念及代码
+magicFunction__init__.py    是关于 魔法方法例如__init__和__del__等相关的概念及代码
