@@ -1,6 +1,8 @@
 # python_algorithm       python的一些算法程序代码
-# 各个脚本文件说明    
-# 当程序中需要创建文件时，使用notepad++的python解释器能使程序运行，但是创建不了文件。但是使用python自带的idle.exe可以创建文件
+
+# 当程序中需要创建文件时，使用notepad++的python解释器能使程序运行，但是创建不了文件。但是使用python自带的idle.exe可以创建文件    
+    
+# 在编程时，养成好习惯：属性(也即变量)名使用名词，如name,方法(也即函数)名使用动词，如print_name()
 
 iteration_recursion.py 是 关于迭代和递归的相关代码，以斐波那契和汉诺塔为例子    
 
@@ -18,4 +20,6 @@ with.py              是关于with的用法：使用with后可以不用�
     
 object_variable.py   是关于类变量，成员变量，私有变量 相关的概念解析以及代码        
 
-baseClass_childClass.py 是关于继承的代码。子类、父类、以及多重继承
+baseClass_childClass.py 是关于继承的代码。子类、父类、以及多重继承    
+    
+zuhe_combine.py      是关于类的组合的概念：当几个类不是同一物种，即横向关系的类，不适合使用继承，这就要用到组合。另外还讲到在类定义外部可以直接定义属性赋值，因为python的变量不需要声明。最后还讲到了关于self 绑定的概念
