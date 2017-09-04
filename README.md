@@ -26,4 +26,4 @@ zuhe_combine.py      是关于类的组合的概念：当几个类不是同一
         
 BIF_property.py   是关于一些面向对象的内嵌函数，以及property的用法    
 
-magicFunction__init__.py    是关于魔法方法例如__init__,__del__， 等相关的概念及代码
+magicFunction__init__.py    是关于魔法方法例如__init__和__del__等相关的概念及代码
