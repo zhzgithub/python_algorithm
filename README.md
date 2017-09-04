@@ -18,4 +18,6 @@ with.py              是关于with的用法：使用with后可以不用�
     
 object_variable.py   是关于类变量，成员变量，私有变量 相关的概念解析以及代码        
 
-baseClass_childClass.py 是关于继承的代码。子类、父类、以及多重继承
+baseClass_childClass.py 是关于继承的代码。子类、父类、以及多重继承    
+    
+zuhe_combine.py      是关于类的组合的概念：当几个类不是同一物种，即横向关系的类，不适合使用继承，这就要用到组合
