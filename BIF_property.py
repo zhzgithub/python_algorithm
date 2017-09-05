@@ -14,6 +14,7 @@ delattr(对象,'属性')			  #与setattr()相反，删除对象的属性，若�
 property(fget=None,fset=None,fdel=None,doc=None)#通过属性来设置属性，设置一个属性，这个属性的作用是去设置已经定义好的属性
 		fget:获取属性的方法      fset是设置属性的方法    fdel是删除属性的方法
 		
+# -------对比一下"属性访问__setattr__getattr__等等以及__dict__.py"文件中的魔法方法-------------		
 >>>class A():
 	def __init__(self,size=10):
 		self.size=size
@@ -32,4 +33,4 @@ property(fget=None,fset=None,fdel=None,doc=None)#通过属性来设置属性，�
 >>>a.x=1000			#调用setsize方法，设置属性值
 >>>a.size			#输出10
 >>>del a.size		#这句话把a.size删除了，即A()中再也没有属性 size。
->>>del a.x          #这句话和上一句功能一样，删除属性size
+>>>del a.x          #这句话和上一句功能一样，删除属性 size

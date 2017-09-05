@@ -22,7 +22,7 @@ with.py              是关于with的用法：使用with后可以不用�
     
 object_variable.py   是关于类变量，成员变量，私有变量 相关的概念解析以及代码        
 
-baseClass_childClass_super().py 是关于继承的代码。子类、父类、以及多重继承    
+baseClass_childClass_super().py 是关于继承的代码。子类、父类、以及多重继承，以及super()方法讲解   
     
 zuhe_combine.py      是关于类的组合的概念：当几个类不是同一物种，即横向关系的类，不适合使用继承，这就要用到组合。另外还讲到在类定义外部可以直接定义属性赋值，因为python的变量不需要声明。最后还讲到了关于self 绑定的概念     
         
@@ -31,3 +31,5 @@ BIF_property.py   是关于一些面向对象的内嵌函数如issubclass(),isi
 magicFunction__init__.py    是关于 魔法方法例如__init__和__del__等相关的概念及代码       
 
 timer__str____repr____add__.py  是关于定制一个定时器，其间用到了__str__()和__repr__()以及__add__()等魔法方法，并详细做了解释
+
+属性访问__setattr__getattr__等等以及__dict__.py    是关于属性访问的魔法方法如__setattr__()等等，还有super()方法讲解
