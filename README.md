@@ -28,4 +28,6 @@ zuhe_combine.py      是关于类的组合的概念：当几个类不是同一
         
 BIF_property.py   是关于一些面向对象的内嵌函数如issubclass(),isinstance(),getattr()等，以及property的用法    
 
-magicFunction__init__.py    是关于 魔法方法例如__init__和__del__等相关的概念及代码
+magicFunction__init__.py    是关于 魔法方法例如__init__和__del__等相关的概念及代码    
+      
+timer__str____repr____add__.py  是关于定制一个定时器，其间用到了__str__()__repr__()__add__()等魔法方法，并详细做了解释
