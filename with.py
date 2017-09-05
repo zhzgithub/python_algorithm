@@ -48,4 +48,3 @@ except OSError as reason:
 # max_factor(num)
 
 
-
