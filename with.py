@@ -46,5 +46,6 @@ except OSError as reason:
 		# print('%d是素数!'%num)
 # num=int(input('请输入一个数字：'))
 # max_factor(num)
-	
+
+
 
