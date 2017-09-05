@@ -21,7 +21,6 @@ print(new_list2)
 
 
 
-
 ### 列表的添加/删除元素方法:  append,remove,del,pop
 
 
