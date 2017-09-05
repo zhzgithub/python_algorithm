@@ -32,3 +32,4 @@ property(fget=None,fset=None,fdel=None,doc=None)#通过属性来设置属性，�
 >>>a.x=1000			#调用setsize方法，设置属性值
 >>>a.size			#输出10
 >>>del a.size		#这句话把a.size删除了，即A()中再也没有属性 size。
+>>>del a.x          #这句话和上一句功能一样，删除属性size
