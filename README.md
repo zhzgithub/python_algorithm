@@ -37,3 +37,5 @@ timer__str____repr____add__.py  是关于定制一个定时器，其间用到�
 iter_next_yield.py  是关于迭代器和生成器相关的代码。讲了iter()、next()以及__iter__()和__next__(),yield 的使用
 
 mudule1.py		是关于 模块 和 包 相关的知识点，讲了import,from..import..,以及__name__和__main__的知识点
+
+decoration_@property.py和@decorator_装饰器.py是关于装饰器的知识点。主要看decoration_@property.py文件就行了，另一个文件辅助看一下。
