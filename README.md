@@ -38,4 +38,4 @@ iter_next_yield.py  是关于迭代器和生成器相关的代码。讲了iter()
 
 mudule1.py		是关于 模块 和 包 相关的知识点，讲了import,from..import..,以及__name__和__main__的知识点
 
-decoration_@property.py和@decorator_装饰器.py是关于装饰器的知识点。主要看decoration_@property.py文件就行了，另一个文件辅助看一下。
+@decoration_@property.py和@decorator_装饰器.py是关于装饰器的知识点。主要看decoration_@property.py文件就行了，另一个文件辅助看一下。
