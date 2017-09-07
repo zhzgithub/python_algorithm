@@ -6,6 +6,8 @@
 
 ###在编程时，养成好习惯：属性(也即变量)名使用名词，如name,方法(也即函数)名使用动词，如print_name()
 
+dict_key_vote.py 是关于使用字典来统计列表中的每个元素出现的次数
+
 iteration_recursion.py 是 关于迭代和递归的相关代码，以斐波那契和汉诺塔为例子    
 
 set_list.py            是关于集合与列表的相关操作，删除重复元素的方法，还介绍了一点增删元素的内嵌函数，以及字典
@@ -39,3 +41,4 @@ iter_next_yield.py  是关于迭代器和生成器相关的代码。讲了iter()
 mudule1.py		是关于 模块 和 包 相关的知识点，讲了import,from..import..,以及__name__和__main__的知识点
 
 @decoration_@property.py和@decorator_装饰器.py是关于装饰器的知识点。主要看decoration_@property.py文件就行了，另一个文件辅助看一下。
+
