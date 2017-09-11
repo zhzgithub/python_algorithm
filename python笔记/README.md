@@ -9,7 +9,7 @@
 9.【func(*args,**kargs)】      
 10.【关于imread()】     
 11.【 关于 cv2.waitKey() 】     
-12.【关于time.localtime(), time.sleep(t),time.ctime()】      
+12.【关于time.localtime(), time.sleep(t),time.ctime(),time.time()】      
 13.【assert】     
 14.【列表添加、删除以及插入元素】【append,extend,insert】【remove(),del,pop()】【insert】      
 15.【对列表进行翻转，排序操作】     

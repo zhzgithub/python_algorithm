@@ -124,7 +124,7 @@ if cv2.waitKey()&0xff==ord('q')			#这里与oxff运算是为了提取ASCII码，
 cv2.waitKey(5)表示等待5 毫秒，但是只要按了键，就不必等待5毫秒。要和time.sleep(5)分清楚
 ==============================================================================================
 
-12.【关于time.localtime(), time.sleep(t),time.ctime()】
+12.【关于time.localtime(), time.sleep(t),time.ctime(),time.time()】
 time.sleep(t) 该函数没有返回值,t表示推迟的秒数。该函数推迟调用线程的运行，可通
 过参数secs指秒数，表示进程挂起的时间
 ''' print ("Start : %s" % time.ctime())
@@ -148,6 +148,9 @@ time.localtime() #返回当前时间：time.struct_time(tm_year=2017, tm_mon=9, 
 如果两次本地时间相减，例如a=time.localtime(),b=time.localtime()后，
 需要使用索引来相减，不能直接使用a-b,应使用a[0]-a[0]形式对应相减。
 
+>>>tic=time.time()		#time.time()显示的形式为1505095164.431292
+>>>toc=time.time()
+>>>toc-tic的间隔单位是秒
 ==============================================================================================
 13.【assert】
 assert 这个关键字称为断言，当assert后面的条件为假时，程序自动崩溃并抛出AssertionError的异常
