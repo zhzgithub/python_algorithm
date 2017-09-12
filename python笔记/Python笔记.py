@@ -21,6 +21,8 @@ print('我叫%s,今年%d岁'%(name,age))
 所以由键盘输入数字需要用int转换为整型，或者float转换为浮点型
 >>>input()	#输入字符串没啥不妥，直接输入数字会把数字变成字符串
 >>>int(input())	#当需要使用数字时就得这么使用
+假如需要把键盘输入的数字赋给某变量
+>>>a=int(input())
 ======================================================================
 4.【只取数组的某行或某列时，得到的是一个维度的数组，既不是行向量，也不是列向量】
 只有数组使用行与列的提取，列表没有行与列的概念
@@ -252,7 +254,74 @@ d=1
 type(d)		#<class 'int'>
 ==============================================================================================
 18.【递归vs迭代】：使用递归解决某些问题更容易，代码实现更简洁，但是递归比迭代运算速率慢
+==============================================================================================
+19.字符串操作
+【1】str1[::-1]表示对字符串进行翻转,简单的步长为-1, 即字符串的翻转(常用)
+	注意列表的翻转是a.reverse(),字符串没有属性reverse
+------------------------------------------------------------
+【2】去掉两端字符串： strip(), rstrip(),lstrip()
+s = '  -----abc123++++       '
+
+# 删除两边空字符
+s.strip()		#s.strip()后字符串s并没变，因为不是就地操作
+s.rstrip()	# 删除右边空字符
+s.lstrip()  # 删除左边空字符
 
 
+s.strip().strip('-+')	# 删除两边某字符和空字符
+s.strip().strip('ab')	#删除两边a,b和空字符
+s.strip('ab')		    #删除两边a和b或
+s.lstrip('asd')  # 删除左边字符a或s或d
+ 
+【3】删除单个固定位置字符： 切片 + 拼接。不推荐
+s = 'abc:123'
+new_s = s[:3] + s[4:]	# 字符串拼接方式去除冒号
+print(new_s)
 
+【4】删除任意位置字符同时删除多种不同字符：replace(), re.sub()
+# 去除字符串中相同的字符
+s = '\tabc\t123\tisk'
+print(s.replace('\t', '')) #即 把字符用''替换，注意''不是空格,' '才是空格，两个引号之间什么也没有
+
+import re
+# 去除\r\n\t字符
+s = '\r\nabc\t123\nxyz'
+print(re.sub('[\r\n\t]', '', s))
+
+【5】删除最后一个字符,还是切片形式
+s='123345'
+s=s[:(len(s)-1)]
+# 以下注释可不看
+'''
+同时删除多种不同字符：translate()        py3中为str.maketrans()做映射
+s = 'abc123xyz'
+# a _> x, b_> y, c_> z，字符映射加密
+print(str.maketrans('abcxyz', 'xyzabc'))	#打印{97: 120, 98: 121, 99: 122, 120: 97, 121: 98, 122: 99}
+# translate把其转换成字符串
+print(s.translate(str.maketrans('abcxyz', 'xyzabc')))	#打印xyz123abc
+
+去掉unicode字符中音调
+import sys
+import unicodedata
+s = "Zhào Qián Sūn Lǐ Zhōu Wú Zhèng Wáng"
+remap = {
+    # ord返回ascii值
+    ord('\t'): '',
+    ord('\f'): '',
+    ord('\r'): None
+    }
+# 去除\t, \f, \r
+a = s.translate(remap)
+
+　　通过使用dict.fromkeys() 方法构造一个字典，每个Unicode 和音符作为键，对于的值全部为None
+　　然后使用unicodedata.normalize() 将原始输入标准化为分解形式字符
+　　sys.maxunicode : 给出最大Unicode代码点的值的整数，即1114111（十六进制的0x10FFFF）。
+　　unicodedata.combining:将分配给字符chr的规范组合类作为整数返回。 如果未定义组合类，则返回0。
+
+cmb_chrs = dict.fromkeys(c for c in range(sys.maxunicode) if unicodedata.combining(chr(c))) #此部分建议拆分开来理解
+b = unicodedata.normalize('NFD', a)
+
+调用translate 函数删除所有重音符
+print(b.translate(cmb_chrs))
+'''
 
