@@ -325,3 +325,26 @@ b = unicodedata.normalize('NFD', a)
 print(b.translate(cmb_chrs))
 '''
 
+20.python中读入数据文件的函数
+	参考网址  http://blog.csdn.net/xierhacker/article/details/53201308
+	
+【1】numpy 库中loadtxt()
+	import numpy as np
+	#load data1.txt
+	print("------Load data1.txt------")
+	data1=np.loadtxt("data1.txt",delimiter=' ')
+	
+【2】pandas库中read_csv(),read_excel()
+	import pandas as pd
+	#load .csv
+	df=pd.read_csv("200W.csv",nrows=400,usecols=(0,1,2,5,6))
+
+
+【3】scipy.io中loadmat()
+	from scipy.io import loadmat
+	from scipy.io import savemat
+	result_dict=loadmat("train")
+	
+	
+	
+	
