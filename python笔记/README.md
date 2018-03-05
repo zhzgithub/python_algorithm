@@ -15,9 +15,9 @@
 15.【创建空字典、集合，空列表，空元组】     
 16.【递归vs迭代】：使用递归解决某些问题更容易，代码实现更简洁，但是递归比迭代运算速率慢   
 17.【字符串操作】字符串翻转str1[::-1]，删除，替换s.replace，
-	s.lstrip('abc') 删除左边字符a或b或c
-18.【python中读入数据文件的函数:loadtxt(),loadmat(),read_excel(),read_csv()   】
+	s.lstrip('abc') 删除左边字符a或b或c        
+18.【python中读入数据文件的函数:loadtxt(),loadmat(),read_excel(),read_csv()   】                
 19.【关于imread()】     
 20.【 关于 cv2.waitKey() 】  
 21.【对matplotlib、pylab、imread、cv2之间的关系与区别】 
-22.【数组的各种属性的用法：】
+22.【数组的各种属性的用法：】         
